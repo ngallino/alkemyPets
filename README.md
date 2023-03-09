@@ -25,6 +25,21 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## License
+## Instalar
 
-Nest is [MIT licensed](LICENSE).
+```bash
+TypeORM
+mysql
+class-validator class-transformer
+```
+
+## Modo de uso de la API
+
+```bash
+La API esta pensada para una veterinaria.
+Para poder utilizarla correctamente se deben crear primero los `usuarios`.
+Luego se pueden crear 'cats' a los cuales se les debe especificar id de 'usuario' para relacionarlos.
+En caso de borrar el usuario tambien se borran los gatos relacionados.
+
+Los Modulos completos son los de 'Cats' y 'Users'.
+```
