@@ -13,7 +13,7 @@ import { User } from '../../users/entity/user.entity';
                 host: 'localhost', 
                 port: 3306, 
                 username: 'root',
-                password: '$Nico_g20', 
+                password: 'root', 
                 database: 'mascotapp', 
                 entities: [Cat, User, Dog], 
                 synchronize: true, 
