@@ -43,3 +43,9 @@ En caso de borrar el usuario tambien se borran los gatos relacionados.
 
 Los Modulos completos son los de 'Cats' y 'Users'.
 ```
+
+## Aclaraciones
+
+```bash
+Al parecer no hay una forma muy clara de como hacer el repositorio de TypeOrm separado de nuestro serivcio. Aunque tal vez no sea la mejor practica logre hacerlo funcionar que creo era la idea del ejercicio. 
+```
